@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+body {
+  font-family: "Kaushan Script", cursive;
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -5,6 +22,28 @@
 
 #emojiDescription {
   margin-top: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+input {
+  display: block;
+  max-width: 90%;
+  margin: 10px auto;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  box-sizing: border-box;
+  font-size: 2rem;
+  -webkit-appearance: none;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  color: #654ea3;
+  background-color: transparent;
 }
 
 span {
